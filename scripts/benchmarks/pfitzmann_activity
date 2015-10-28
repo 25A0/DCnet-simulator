@@ -1,0 +1,7 @@
+echo "PFITZMANN'S ALGORITHM"
+echo "Benchmarking performance with various network sizes and different activity"
+pfitzmann 32 [100 500 1000 2000 5000 10000] 0.01
+pfitzmann 32 [100 500 1000 2000 5000 10000] 0.1
+pfitzmann 32 [100 500 1000 2000 5000 10000] 0.5
+pfitzmann 32 [100 500 1000 2000 5000 10000] 1.0
+

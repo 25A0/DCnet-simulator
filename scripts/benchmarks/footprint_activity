@@ -1,0 +1,6 @@
+echo "FOOTPRINT SCHEDULING"
+echo "Benchmarking performance with various network sizes and different activity"
+footprint 32 2 [100 500 1000 2000 5000 10000] 0.01
+footprint 32 2 [100 500 1000 2000 5000 10000] 0.1
+footprint 32 2 [100 500 1000 2000 5000 10000] 0.5
+footprint 32 2 [100 500 1000 2000 5000 10000] 1.0

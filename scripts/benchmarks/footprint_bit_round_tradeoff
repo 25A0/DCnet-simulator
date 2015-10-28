@@ -1,0 +1,24 @@
+echo "FOOTPRINT SCHEDULING"
+echo "Benchmarking trade-off between # bits and # required rounds"
+footprint 8 2 [5000] 1 true
+footprint 16 2 [5000] 1 true
+footprint 32 2 [5000] 1 true
+footprint 64 2 [5000] 1 true
+footprint 128 2 [5000] 1 true
+footprint 8 4 [5000] 1 true
+footprint 16 4 [5000] 1 true
+footprint 32 4 [5000] 1 true
+footprint 64 4 [5000] 1 true
+footprint 128 4 [5000] 1 true
+footprint 8 6 [5000] 1 true
+footprint 16 6 [5000] 1 true
+footprint 32 6 [5000] 1 true
+footprint 64 6 [5000] 1 true
+footprint 128 6 [5000] 1 true
+footprint 8 8 [5000] 1 true
+footprint 16 8 [5000] 1 true
+footprint 32 8 [5000] 1 true
+footprint 64 8 [5000] 1 true
+footprint 128 8 [5000] 1 true
+write
+exit

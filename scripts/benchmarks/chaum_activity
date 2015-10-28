@@ -1,0 +1,7 @@
+echo "CHAUM"
+echo "Benchmarking performance with various network sizes and different activity"
+chaum [100 500 1000 2000 5000 10000] 0.01
+chaum [100 500 1000 2000 5000 10000] 0.1
+chaum [100 500 1000 2000 5000 10000] 0.5
+chaum [100 500 1000 2000 5000 10000] 1.0
+

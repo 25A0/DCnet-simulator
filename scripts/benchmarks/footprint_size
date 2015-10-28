@@ -1,0 +1,7 @@
+echo "FOOTPRINT SCHEDULING"
+echo "Benchmarking different size for footprints"
+footprint 16 4 [2000 5000 10000] 1
+footprint 16 5 [2000 5000 10000] 1
+footprint 16 6 [2000 5000 10000] 1
+footprint 16 7 [2000 5000 10000] 1
+footprint 16 8 [2000 5000 10000] 1
